@@ -1,0 +1,38 @@
+{
+  "name": "ftp-transfer-watcher-app",
+  "productName": "ftp-transfer-watcher-app",
+  "version": "1.0.0",
+  "description": "My Electron application description",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "echo \"No linting configured\"",
+    "tw": "npx tailwindcss -i ./src/input.css -o ./src/index.css --watch"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Marco Ingraiti",
+    "email": "marco.ingraiti@icloud.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "auto-launch": "^5.0.5",
+    "basic-ftp": "^5.0.2",
+    "electron-json-storage": "^4.6.0",
+    "electron-squirrel-startup": "^1.0.0",
+    "fs-extra": "^10.1.0"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.0",
+    "@electron-forge/maker-deb": "^6.0.0",
+    "@electron-forge/maker-rpm": "^6.0.0",
+    "@electron-forge/maker-squirrel": "^6.0.0",
+    "@electron-forge/maker-zip": "^6.0.0",
+    "electron": "21.2.2",
+    "@tailwindcss/forms": "^0.5.3",
+    "tailwindcss": "^3.2.2"
+  }
+}

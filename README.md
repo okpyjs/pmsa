@@ -17,4 +17,6 @@ Clone the repo, install dependecies and run
 
 ## Download
 
-Soon I will publish compiled package for Windows, Linux and MacOS
+MacOS: [Download last release](https://github.com/buggyzap/ftp-transfer-watcher-app/releases/download/v1.0.0/ftp-transfer-watcher-app.zip)
+
+Soon I will publish compiled package for Windows and Linux
